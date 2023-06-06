@@ -21,4 +21,4 @@ class TestTag(TestCase):
         Tag.objects.create(name="tag-test")
 
     def test_str_attributes(self):
-        self.assertEqual(Tag.objects.last().__str__(), "tag-test")
+        self.assertEqual(Tag.objects.last().__str__(), 'tag-test')

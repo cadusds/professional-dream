@@ -6,9 +6,11 @@ from blog import models
 class ProfileAdmin(admin.ModelAdmin):
     model = models.Profile
 
+
 @admin.register(models.Tag)
 class TagAdmin(admin.ModelAdmin):
     model = models.Tag
+
 
 @admin.register(models.Post)
 class PostAdmin(admin.ModelAdmin):
